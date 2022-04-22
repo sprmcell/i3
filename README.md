@@ -1,6 +1,6 @@
 # My i3 configs
 
-These are just my i3 config to remove the weird look of default i3
+These are just my i3 config to remove the default i3
 
 ## What do i need
 
