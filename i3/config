@@ -9,6 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# We use Alt, like DWM
+
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -182,6 +184,23 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# The bar is commented out because it messes with polybar
+
+#bar {
+        #status_command i3status
+        #position top
+        #font pango:ms-fonts Bold 12
+        #tray_padding 0
+        #colors {
+        #focused_workspace  #ff00ff #ff00ff #000000
+        #active_workspace   #333333 #5f676a #ffffff
+        #inactive_workspace #222222 #222222 #888888
+        #urgent_workspace   #2f343a #900000 #ffffff
+        #binding_mode       #ff0000 #ff0000 #ffffff
+        #}
+        # i love you
+#}
+
 # This is Window Colour                         border          background      text            indicator       child_border
 
 client.focused                  #f603a5         #f603a5         #000000         #f603af       #f603a5
@@ -193,7 +212,8 @@ client.background               #ffffff
 
 # What apps boot on startup
 
-exec ./verq.bash
+exec ./polybar
+# if you domt use picom comment this out or replace it with your compositor
 exec picom
 
 # Gaps
