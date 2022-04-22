@@ -212,7 +212,7 @@ client.background               #ffffff
 
 # What apps boot on startup
 
-exec ./polybar
+exec ./pbl
 # if you domt use picom comment this out or replace it with your compositor
 exec picom
 
