@@ -40,6 +40,9 @@ sudo rm -rf ~/etc/polybar && cp -r polybar ~/etc/
 ```sh
 cp pbl ~/
 ```
+```sh
+cd ~/ && chmod +x pbl
+```
 
 ### If you use polybar
 
