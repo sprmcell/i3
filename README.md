@@ -12,7 +12,7 @@ i3status or polybar
 
 ## Thanks to:
 
-[Verg](https://github.com/CordlessCoder) for helping me with the polybar monitor script
+[Verq](https://github.com/CordlessCoder) for helping me with the polybar monitor script
 
 ## How to use?
 
