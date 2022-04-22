@@ -47,4 +47,4 @@ uncommet the entire `bar{}` area and comment out `exec ./polybar`
 
 ## Screenshot
 
-![i love you]()
+![i love you](https://github.com/sprmcell/i3/blob/main/screenshot.png)
