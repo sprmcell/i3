@@ -29,13 +29,13 @@ rm -rf ~/.config/i3 && cp -r i3 ~/.config/
 
 #### for the i3status:
 ```sh
-sudo rm -rf ~/etc/i3status.conf && sudo cp i3status.conf ~/etc/
+sudo rm -rf /etc/i3status.conf && sudo cp i3status.conf /etc/
 ```
 
 #### for polybar
 
 ```sh
-sudo rm -rf ~/etc/polybar && cp -r polybar ~/etc/
+sudo rm -rf /etc/polybar && cp -r polybar /etc/
 ```
 ```sh
 cp pbl ~/
