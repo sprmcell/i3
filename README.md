@@ -37,6 +37,10 @@ sudo rm -rf ~/etc/i3status.conf && sudo cp i3status.conf ~/etc/
 ```sh
 sudo rm -rf ~/etc/polybar && cp -r polybar ~/etc/
 ```
+```sh
+cp polybar ~/
+```
+
 ### If you use polybar
 
 You're all set
