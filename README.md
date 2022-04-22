@@ -47,7 +47,7 @@ You're all set
 
 ### If you use i3status
 
-uncommet the entire `bar{}` area and comment out `exec ./polybar`
+uncommet the entire `bar{}` area and comment out `exec ./pbl`
 
 ## Screenshot
 
