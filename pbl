@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Put this in your home directory
 
 # Terminate already running bar instances
 killall -q polybar
@@ -13,4 +14,4 @@ if type "xrandr"; then
 else
   polybar --reload main_bar &
 fi
-echo "Bars launched..."
+echo "Launching Polybar <3"
