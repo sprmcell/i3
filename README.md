@@ -4,7 +4,7 @@ These are just my i3 config to remove the default i3
 
 ## What do i need
 
-Xorg dependacies, FontAwesome, i3, rofi
+Xorg dependacies, FontAwesome, i3(all packages), rofi
 
 ## Optional
 
@@ -35,7 +35,7 @@ sudo rm -rf /etc/i3status.conf && sudo cp i3status.conf /etc/
 #### for polybar
 
 ```sh
-sudo rm -rf /etc/polybar && cp -r polybar /etc/
+sudo rm -rf /etc/polybar && sudo cp -r polybar /etc/
 ```
 ```sh
 cp pbl ~/
